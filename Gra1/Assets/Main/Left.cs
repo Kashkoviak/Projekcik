@@ -2,18 +2,18 @@
 using System.Collections;
 using UnityEditor.Experimental.GraphView;
 
-public class Upwards : MonoBehaviour
+public class Left : MonoBehaviour
 {
-	Rigidbody2D ammoUp;
+	Rigidbody2D ammoLeft;
 	// Use this for initialization
 	void Start()
 	{
-		ammoUp = GetComponent<Rigidbody2D>();
+		ammoLeft = GetComponent<Rigidbody2D>();
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		ammoUp.AddForce(transform.up * 10);
+		ammoLeft.AddForce(-transform.right * 10);
 	}
 }

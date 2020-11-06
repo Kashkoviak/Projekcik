@@ -236,6 +236,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   ammoUp: {fileID: 1177744775832951280, guid: 9dcf65f7a310d7243863657dce464b02, type: 3}
+  ammoDown: {fileID: 4977199604199337366, guid: 985b5d5ff71129346aad35e1df64d28f,
+    type: 3}
+  ammoLeft: {fileID: 8165496443451805149, guid: c546bba4606b0f24880ad2eeef094121,
+    type: 3}
+  ammoRight: {fileID: 8984486970528583887, guid: 17d036aa0dea8e740a72de410b4362b4,
+    type: 3}
 --- !u!212 &2052563992
 SpriteRenderer:
   m_ObjectHideFlags: 0
